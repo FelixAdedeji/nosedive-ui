@@ -7,7 +7,7 @@
     "ui",
     "theme"
   ],
-  "repository": "https://github.com/atom-community/nosedive-ui",
+  "repository": "https://github.com/reallyely/nosedive-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
