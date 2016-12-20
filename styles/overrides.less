@@ -1,0 +1,20 @@
+@import "colors";
+// SCROLLBARS
+.scrollbars-visible-always {
+  /deep/ ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  /deep/ ::-webkit-scrollbar-track,
+  /deep/ ::-webkit-scrollbar-corner {
+    background: @negative;
+  }
+
+  /deep/ ::-webkit-scrollbar-thumb,
+  /deep/ ::-webkit-scrollbar-thumb:hover {
+    background: @positive;
+    border-radius: 5px;
+    box-shadow: 0;
+  }
+}

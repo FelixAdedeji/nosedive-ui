@@ -7,14 +7,16 @@
 
 .tab-bar {
   background-color: @tab-bar-background-color;
-  border-bottom: 1px solid @base-border-color;
+	padding: 2px;
+  // border-bottom: 1px solid @base-border-color;
 
   .tab {
     color: @text-color;
     height: @tab-height;
     line-height: @tab-height;
-    font-size: @font-size;
-    border-right: 1px solid @tab-border-color;
+    font-size: large;
+		font-variant: small-caps;
+		font-style: italic;
     background-color: @tab-background-color;
     &.active {
       color: @text-color-selected;
@@ -39,7 +41,7 @@
       color: @text-color-selected;
     }
     &.active .close-icon:hover {
-      color: @text-color;
+      color: @red;
     }
 
 
